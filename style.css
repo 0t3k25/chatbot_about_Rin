@@ -41,7 +41,7 @@ h1{
     border-bottom: 1px solid #777;
     border-left:1px solid #777;
     border-right: 1px solid #777;
-    background-color:#777;
+    background-color:#fff;
     margin: 0 auto;
 }
 
@@ -74,14 +74,14 @@ h1{
     font-size: 13px;
     background: #8873FF;
     color: white;
-    display: none;
+    display: block;
     /*デフォルトのボーダーを消す*/
     border: none;
     box-sizing: border-box;
     border-radius: 6.5px;
 }
 
-chat-button:focus{
+#chat-button:focus{
     outline: 0;
     background: #a899ff;
 }
