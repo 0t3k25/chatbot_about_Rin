@@ -10,6 +10,9 @@ h1{
     margin-top: 10px;
 }
 
+/*キャラクターのネーム*/
+
+
 /*チャットのフィールド*/
 #field{
     width: 300px;
@@ -18,7 +21,8 @@ h1{
     box-sizing: border-box;
     background-color: #EEE;
     margin: 0 auto;
-    background-color: #81AECF;
+    background-image: url(/image/chatbackimage.jpeg);
+    background-size: cover;
     /*横向きのスクロール禁止*/
     overflow-x: hidden;
     /*縦向きのスクロール許可*/
@@ -27,6 +31,8 @@ h1{
     /*IE,Edgeでスクロールバーを非表示*/
     -ms-overflow-style: none;
 }
+/*キャラ画像表示*/
+
 
 /*Chrome,Safariでスクロールバー非表示*/
 #field::-webkit-scrollbar {
