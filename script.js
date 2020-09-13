@@ -15,7 +15,7 @@ const inputText = document.getElementById('chat-input');
 
 //画面に出力
 //val is message content,person is speaking person
-function output(val,perosn){
+function output(val,person){
     const field = document.getElementById('field');
     field.scroll(0,field.scrollHeight - field.clientHeight);
 
@@ -58,17 +58,18 @@ function btnFunc() {
     },1)
     switch(chatCount){
         case 2:
-            output(`こんにちわ${inputText.value}!`,'character');
+            output(`こんにちわ${inputText.value}!`,"character");
             setTimeout( ()=> {
-                output(ans[2],'character');
+                output(ans[2],"character");
             },2000);
             break;
             //
     }
 }
 
-output(ans[0],'character');
+output(ans[0],"character");
 
 setTimeout( ()=> {
-    output(chat[1],'character');
+    output(chat[1],"character");
 },2000);
+
