@@ -49,7 +49,7 @@ function output(val,person){
 function btnFunc() {
     if (!inputText.value) return false;
     //自分のテキスト送信
-    output(inputText.value,me);
+    output(inputText.value,"me");
 
     setTimeout( ()=> {
         //入力を空欄に
@@ -70,6 +70,6 @@ function btnFunc() {
 output(ans[0],"character");
 
 setTimeout( ()=> {
-    output(chat[1],"character");
+    output(ans[1],"character");
 },2000);
 
